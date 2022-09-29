@@ -1,0 +1,20 @@
+xcassets:
+ - inputs: ../PROJECT_FOLDER/Resources/Assets.xcassets
+   outputs:
+      - templatePath: swift5
+        output: ../PROJECT_FOLDER/Generated/Image.swift
+        params:
+            enumName: Image
+ - inputs: ../PROJECT_FOLDER/Resources/ColorsAssets.xcassets
+   outputs:
+      - templateName: swift5
+        output: ../PROJECT_FOLDER/Generated/Colors.swift
+        params:
+            enumName: Colors
+strings:
+  inputs: ../PROJECT_FOLDER/Resources/en.lproj
+  outputs:
+    templateName: structured-swift5
+    output: ../PROJECT_FOLDER/Generated/Localization.swift
+    params:
+            enumName: Localization

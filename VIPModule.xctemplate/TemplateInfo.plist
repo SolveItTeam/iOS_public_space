@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>VIP Module</string>
+	<key>Description</key>
+	<string></string>
+	<key>Identifier</key>
+	<string>me.solveit.swift.template</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Swift 5.0</string>
+			<key>Description</key>
+			<string>Language</string>
+			<key>Identifier</key>
+			<string>templateLanguage</string>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewController</string>
+			<key>Description</key>
+			<string>The view controller name</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>View Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Interactor</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Presenter</string>
+			<key>Description</key>
+			<string>The presenter name</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Name</key>
+			<string>Presenter Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Assembly</string>
+			<key>Description</key>
+			<string>The assembly name</string>
+			<key>Identifier</key>
+			<string>assemblyName</string>
+			<key>Name</key>
+			<string>Assembly Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>9</string>
+	<key>Summary</key>
+	<string>This generates a new VIP module using SolveIT architecture.</string>
+</dict>
+</plist>
